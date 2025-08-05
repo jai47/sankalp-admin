@@ -1,5 +1,6 @@
 import Navbar from '@/components/Home/Navbar';
 import '@/app/globals.css';
+import { SessionProvider } from 'next-auth/react';
 
 export const metadata = {
     title: 'SHRK | Communicate, Collaborate, Create',
@@ -10,8 +11,10 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body>
-                <Navbar />
-                {children}
+                <SessionProvider>
+                    <Navbar />
+                    {children}
+                </SessionProvider>
             </body>
         </html>
     );

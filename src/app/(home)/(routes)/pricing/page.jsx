@@ -1,5 +1,10 @@
+import Footer from '@/components/Footer/Footer';
 import PricingPlans from '@/components/Pricing/PricingPlans';
 import React from 'react';
+
+export const metadata = {
+    title: 'Pricing | SHRK',
+};
 
 const page = () => {
     return (
@@ -28,10 +33,10 @@ const page = () => {
                 </div>
                 <div className="absolute -top-10 flex w-4/5 items-center justify-around px-36 z-10 gap-8">
                     <PricingPlans
-                        plan="Standard"
-                        price="30"
+                        plan="Free"
+                        price="0"
                         description="Use this area to describe one of your memberships."
-                        duration="6"
+                        duration="1"
                         benefits={['5000 Users', 'Upto 5 Clubs']}
                     />
                     <PricingPlans
@@ -48,7 +53,7 @@ const page = () => {
                     />
                     <PricingPlans
                         plan="Enterprise"
-                        price="100"
+                        price="Custom"
                         description="Use this area to describe one of your memberships."
                         duration="24"
                         benefits={[
@@ -60,6 +65,7 @@ const page = () => {
                     />
                 </div>
             </div>
+            <Footer />
         </>
     );
 };

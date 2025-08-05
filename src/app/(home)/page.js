@@ -8,8 +8,9 @@ import flower1 from '@/assets/floral/flower1.svg';
 import flower2 from '@/assets/floral/flower2.svg';
 import flower3 from '@/assets/floral/flower3.svg';
 import footerImage from '@/assets/Illustrations/footer.svg';
+import Footer from '@/components/Footer/Footer';
 
-const Home = () => {
+const Home = async () => {
     return (
         <div className="flex flex-col h-auto">
             <div className="h-screen">
@@ -138,7 +139,7 @@ const Home = () => {
                             />
 
                             <h2 className="font-medium text-2xl mt-8">
-                                Workflows <br /> That Work
+                                Clubs Management <br /> System
                             </h2>
                             <p className="mt-7 text-gray-500 font-light text-sm">
                                 I'm a paragraph. Click here to add your own text
@@ -155,7 +156,7 @@ const Home = () => {
                             />
 
                             <h2 className="font-medium text-2xl mt-8">
-                                All-In-One <br /> Solution
+                                Student Monitoring <br /> System
                             </h2>
                             <p className="mt-7 text-gray-500 font-light text-sm">
                                 I'm a paragraph. Click here to add your own text
@@ -172,7 +173,8 @@ const Home = () => {
                             />
 
                             <h2 className="font-medium text-2xl mt-8">
-                                Comprehensive <br /> Customer Support
+                                College Administration
+                                <br /> Support
                             </h2>
                             <p className="mt-7 text-gray-500 font-light text-sm">
                                 I'm a paragraph. Click here to add your own text
@@ -189,7 +191,8 @@ const Home = () => {
                             />
 
                             <h2 className="font-medium text-2xl mt-8">
-                                Smart <br /> Automation Tools
+                                Centralized Academic
+                                <br /> Resources
                             </h2>
                             <p className="mt-7 text-gray-500 font-light text-sm">
                                 I'm a paragraph. Click here to add your own text
@@ -412,7 +415,7 @@ const Home = () => {
 
                 <Link
                     href="/pricing"
-                    className="bg-black text-white font-semibold px-6 py-3 rounded-lg hover:bg-yellow-400 hover:text-black hover:border hover:border-black duration-100 cursor-pointer mb-[30rem]"
+                    className="bg-black text-white font-semibold px-6 py-3 rounded-lg hover:bg-yellow-400 border border-black hover:text-black duration-100 cursor-pointer mb-[30rem] z-10"
                 >
                     Get Started
                 </Link>
@@ -424,9 +427,7 @@ const Home = () => {
                     className="absolute -bottom-60 left-1/2 transform -translate-x-1/2"
                 />
             </div>
-            <div className="h-screen w-screen flex flex-col items-center py-20 bg-yellow-400">
-                hello
-            </div>
+            <Footer />
         </div>
     );
 };

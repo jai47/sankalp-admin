@@ -40,9 +40,9 @@ const Navbar = () => {
                     href="/auth/login"
                     className="flex items-center justify-between gap-1 text-gray-500"
                 >
-                    <div className="relative w-6 h-6 bg-gray-200 border border-gray-400 rounded-full mr-2 overflow-hidden">
-                        <div className="absolute inset-0 top-[20%] left-[50%] translate-x-[-50%] w-2 h-2 bg-gray-500 rounded-full" />
-                        <div className="absolute inset-0 top-[60%] left-[50%] translate-x-[-50%] w-4 h-4 bg-gray-500 rounded-full" />
+                    <div className="relative w-6 h-6 bg-black border rounded-full mr-2 overflow-hidden">
+                        <div className="absolute inset-0 top-[20%] left-[50%] translate-x-[-50%] w-2 h-2 bg-gray-100 rounded-full" />
+                        <div className="absolute inset-0 top-[60%] left-[50%] translate-x-[-50%] w-4 h-4 bg-gray-100 rounded-full" />
                     </div>
                     <span>Login In</span>
                 </Link>
