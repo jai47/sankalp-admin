@@ -104,12 +104,13 @@ const Home = async () => {
                         Happen
                     </h2>
                     <p className="w-1/3 text-md font-light">
-                        I'm a paragraph. Click here to add your own text and
-                        edit me. It’s easy. Just click “Edit Text” or double
-                        click me to add your own content and make changes to the
-                        font. Feel free to drag and drop me anywhere you like on
-                        your page. I’m a great place for you to tell a story and
-                        let your users know a little more about you.
+                        I&apos;m a paragraph. Click here to add your own text
+                        and edit me. It&apos;s easy. Just click “Edit Text” or
+                        double click me to add your own content and make changes
+                        to the font. Feel free to drag and drop me anywhere you
+                        like on your page. I&apos;m a great place for you to
+                        tell a story and let your users know a little more about
+                        you.
                     </p>
                 </div>
             </div>
@@ -124,10 +125,10 @@ const Home = async () => {
                             What We Offer
                         </h2>
                         <p className="w-4/5 font-light text-sm">
-                            I'm a paragraph. Click here to add your own text and
-                            edit me. It’s easy. Just click “Edit Text” or double
-                            click me to add your own content and make changes to
-                            the font.
+                            I&apos;m a paragraph. Click here to add your own
+                            text and edit me. It&apos;s easy. Just click “Edit
+                            Text” or double click me to add your own content and
+                            make changes to the font.
                         </p>
                     </div>
                     <div className="flex mt-20 justify-around">
@@ -142,10 +143,10 @@ const Home = async () => {
                                 Clubs Management <br /> System
                             </h2>
                             <p className="mt-7 text-gray-500 font-light text-sm">
-                                I'm a paragraph. Click here to add your own text
-                                and edit me. I’m a great place for you to tell a
-                                story and let your users know a little more
-                                about you.
+                                I&apos;m a paragraph. Click here to add your own
+                                text and edit me. I&apos;m a great place for you
+                                to tell a story and let your users know a little
+                                more about you.
                             </p>
                         </div>
                         <div className="w-1/5">
@@ -159,10 +160,10 @@ const Home = async () => {
                                 Student Monitoring <br /> System
                             </h2>
                             <p className="mt-7 text-gray-500 font-light text-sm">
-                                I'm a paragraph. Click here to add your own text
-                                and edit me. I’m a great place for you to tell a
-                                story and let your users know a little more
-                                about you.
+                                I&apos;m a paragraph. Click here to add your own
+                                text and edit me. I&apos;m a great place for you
+                                to tell a story and let your users know a little
+                                more about you.
                             </p>
                         </div>
                         <div className="w-1/5">
@@ -177,10 +178,10 @@ const Home = async () => {
                                 <br /> Support
                             </h2>
                             <p className="mt-7 text-gray-500 font-light text-sm">
-                                I'm a paragraph. Click here to add your own text
-                                and edit me. I’m a great place for you to tell a
-                                story and let your users know a little more
-                                about you.
+                                I&apos;m a paragraph. Click here to add your own
+                                text and edit me. I&apos;m a great place for you
+                                to tell a story and let your users know a little
+                                more about you.
                             </p>
                         </div>
                         <div className="w-1/5">
@@ -195,10 +196,10 @@ const Home = async () => {
                                 <br /> Resources
                             </h2>
                             <p className="mt-7 text-gray-500 font-light text-sm">
-                                I'm a paragraph. Click here to add your own text
-                                and edit me. I’m a great place for you to tell a
-                                story and let your users know a little more
-                                about you.
+                                I&apos;m a paragraph. Click here to add your own
+                                text and edit me. I&apos;m a great place for you
+                                to tell a story and let your users know a little
+                                more about you.
                             </p>
                         </div>
                     </div>
@@ -221,13 +222,13 @@ const Home = async () => {
                     <div className="w-4/5 flex justify-between items-center pl-8">
                         <div className="w-2/5">
                             <h2 className="text-4xl font-light mb-10 tracking-wide">
-                                Trusted Among Institute's Leaders
+                                Trusted Among Institute&apos;s Leaders
                             </h2>
                             <p className="w-4/5 font-light text-sm mb-14">
-                                I'm a paragraph. Click here to add your own text
-                                and edit me. It’s easy. Just click “Edit Text”
-                                or double click me to add your own content and
-                                make changes to the font.
+                                I&apos;m a paragraph. Click here to add your own
+                                text and edit me. It&apos;s easy. Just click
+                                “Edit Text” or double click me to add your own
+                                content and make changes to the font.
                             </p>
                         </div>
                     </div>
@@ -273,11 +274,11 @@ const Home = async () => {
                                     </div>
                                     <div className="p-5">
                                         <p className="mt-7 text-gray-500 font-light text-sm">
-                                            I'm a paragraph. Click here to add
-                                            your own text and edit me. I’m a
-                                            great place for you to tell a story
-                                            and let your users know a little
-                                            more about you.
+                                            I&apos;m a paragraph. Click here to
+                                            add your own text and edit me.
+                                            I&apos;m a great place for you to
+                                            tell a story and let your users know
+                                            a little more about you.
                                         </p>
                                         <p className="text-right mt-20 text-gray-500 font-bold text-md">
                                             Jai Mishra,
@@ -301,11 +302,11 @@ const Home = async () => {
                                     </div>
                                     <div className="p-5">
                                         <p className="mt-7 text-gray-500 font-light text-sm">
-                                            I'm a paragraph. Click here to add
-                                            your own text and edit me. I’m a
-                                            great place for you to tell a story
-                                            and let your users know a little
-                                            more about you.
+                                            I&apos;m a paragraph. Click here to
+                                            add your own text and edit me.
+                                            I&apos;m a great place for you to
+                                            tell a story and let your users know
+                                            a little more about you.
                                         </p>
                                         <p className="text-right mt-20 text-gray-500 font-bold text-md">
                                             Jai Mishra,
@@ -329,11 +330,11 @@ const Home = async () => {
                                     </div>
                                     <div className="p-5">
                                         <p className="mt-7 text-gray-500 font-light text-sm">
-                                            I'm a paragraph. Click here to add
-                                            your own text and edit me. I’m a
-                                            great place for you to tell a story
-                                            and let your users know a little
-                                            more about you.
+                                            I&apos;m a paragraph. Click here to
+                                            add your own text and edit me.
+                                            I&apos;m a great place for you to
+                                            tell a story and let your users know
+                                            a little more about you.
                                         </p>
                                         <p className="text-right mt-20 text-gray-500 font-bold text-md">
                                             Jai Mishra,
@@ -365,12 +366,13 @@ const Home = async () => {
                                 Pricing Options
                             </h2>
                             <p className="w-4/5 font-light text-sm mb-14">
-                                I'm a paragraph. Click here to add your own text
-                                and edit me. It’s easy. Just click “Edit Text”
-                                or double click me to add your own content and
-                                make changes to the font. I’m a great place for
-                                you to tell a story and let your users know a
-                                little more about you.
+                                I&apos;m a paragraph. Click here to add your own
+                                text and edit me. It&apos;s easy. Just click
+                                “Edit Text” or double click me to add your own
+                                content and make changes to the font. I&apos;m a
+                                great place for you to tell a story and let your
+                                users know a little more about you. little more
+                                about you.
                             </p>
                             <Link
                                 href="/pricing"

@@ -1,5 +1,5 @@
-import Navbar from '@/components/Home/Navbar';
 import '@/app/globals.css';
+import Navbar from '@/components/Pricing/Navbar';
 import { SessionProvider } from 'next-auth/react';
 
 export const metadata = {

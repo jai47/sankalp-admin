@@ -1,4 +1,5 @@
 import '@/app/globals.css';
+import CommandKHandler from '@/components/Admin/searchFunctionality/CommandKHandler';
 import { SessionProvider } from 'next-auth/react';
 // import { auth } from '@/auth';
 // import { redirect } from 'next/navigation';
@@ -21,7 +22,8 @@ export default async function RootLayout({ children }) {
     return (
         <html lang="en">
             <body>
-                <SessionProvider>{children}</SessionProvider>
+                {children}
+                <CommandKHandler />
             </body>
         </html>
     );
