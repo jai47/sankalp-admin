@@ -14,7 +14,7 @@ export const POST = auth(async (req) => {
     }
 
     //check for request contain plan ID
-    const { planId } = await req.json();
+    const { planId } = await req.json(); //planId is mongodb._id
 
     //if not return error
     if (!planId) {

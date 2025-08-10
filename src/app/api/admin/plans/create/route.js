@@ -13,19 +13,21 @@ export const POST = auth(async (req) => {
     }
 
     await connectDB();
-    const user = await userModel.findOne({ email: req.auth.user.email });
+    const user = (
+        await userModel.findOne({ email: req.auth.user.email })
+    ).toObject(); // toObject because Mongoose returns a Document, not a plain object and role is not defined in the user schema, it is manually added to the database
 
-    if (user?.role !== 'admin') {
-        return NextResponse.error({
-            status: 403,
-            statusText: 'Forbidden',
-        });
+    if (!user || user?.role !== 'admin') {
+        return NextResponse.json(
+            { message: 'Forbidden', success: false },
+            { status: 403 }
+        );
     }
 
     const { plan_id, name, amount, duration, features } = await req.json();
 
     try {
-        await createPlan({
+        const newPlan = await createPlan({
             plan_id,
             name,
             amount: parseInt(amount),
@@ -34,7 +36,11 @@ export const POST = auth(async (req) => {
         });
 
         return NextResponse.json(
-            { message: 'Plan created successfully', success: true },
+            {
+                message: 'Plan created successfully',
+                success: true,
+                data: newPlan,
+            },
             { status: 201 }
         );
     } catch (error) {

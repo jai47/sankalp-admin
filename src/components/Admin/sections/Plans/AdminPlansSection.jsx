@@ -1,7 +1,7 @@
 import React from 'react';
 import CreatePlans from './CreatePlans';
 
-const PlansAdminSection = () => {
+const AdminPlansSection = () => {
     // Fake billing data
     const fakeOrders = [
         {
@@ -34,8 +34,14 @@ const PlansAdminSection = () => {
     ];
 
     return (
-        <>
-            {/* Billing section */}
+        <section className="h-full w-full bg-[#f5f5f5] border border-[#E1E0DC]">
+            <div className="w-full h-[7%] border-b border-[#E1E0DC] flex items-center pl-4">
+                <p className="text-2xl font-medium">
+                    {/* {section?.toString()[0].toUpperCase() +
+                        section?.toString().slice(1)} */}
+                    Plans
+                </p>
+            </div>
             <div className="p-6 bg-white rounded-lg shadow-md">
                 <h2 className="text-xl font-semibold mb-4">Billing</h2>
                 <div className="overflow-x-auto">
@@ -103,11 +109,9 @@ const PlansAdminSection = () => {
                     </table>
                 </div>
             </div>
-
-            {/* Create Plans section */}
             <CreatePlans />
-        </>
+        </section>
     );
 };
 
-export default PlansAdminSection;
+export default AdminPlansSection;
